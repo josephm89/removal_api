@@ -1,4 +1,4 @@
-class AddMovewareEmployeeCodeToEmployees < ActiveRecord::Migration[5.0]
+class AddMovewareEmployeeCodeToEmployees < ActiveRecord::Migration[5.0][5.0]
   def change
     add_column :employees, :moveware_employee_code, :string
   end

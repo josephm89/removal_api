@@ -1,4 +1,4 @@
-class AddRosCandidateToTrips < ActiveRecord::Migration[5.0]
+class AddRosCandidateToTrips < ActiveRecord::Migration[5.0][5.0]
   def change
     add_column :trips, :ros_candidate, :boolean
   end

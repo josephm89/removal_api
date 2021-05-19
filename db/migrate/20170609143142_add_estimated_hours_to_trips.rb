@@ -1,4 +1,4 @@
-class AddEstimatedHoursToTrips < ActiveRecord::Migration[5.0]
+class AddEstimatedHoursToTrips < ActiveRecord::Migration[5.0][5.0]
   def change
     add_column :trips, :estimated_hours, :integer
   end

@@ -1,4 +1,4 @@
-class CreateSurveys < ActiveRecord::Migration[5.0]
+class CreateSurveys < ActiveRecord::Migration[5.0][5.0]
   def change
     create_table :surveys do |t|
       t.references :employee, foreign_key: true
